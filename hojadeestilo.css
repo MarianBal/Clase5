@@ -32,9 +32,16 @@ h2{
     margin-bottom: 10px;
     overflow: hidden;
 }
+.cuadrodetextodos{
+    width:30%;
+    height:auto;
+    padding:1% 1% 1% 1%;
+    float:left;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
 .punteado{
     border-top: dotted 2px black; 
-;
 }
 #contenedor{
     width:60%;
@@ -139,5 +146,29 @@ h2{
     margin:auto;
     clear:both;
     margin: 10px 0 0 0;
-    padding: 10px 1% 0 1%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer{
+    width:98%;
+    height:50px;
+    background:black;
+    color: white;
+    padding:0 1% 0 1%;
+    display:flex;
+
+}
+#footer ul{
+    width:100%;
+    padding:0;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: center;
+}
+#footer ul li{
+    float:left;
+    margin:0 5% 0 0;
 }
